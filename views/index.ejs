@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>WebSocketChat</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="status">Offline</div>
+        </header>
+        <main>
+            <div class="user">
+                <input class="name" type="text" required autofocus autocomplete="off" value="Anonimous">
+                <button class="change_name">Change name</button>
+            </div>
+            <ul id="messages"></ul>
+            <div class="feedback"></div>
+            <section class="form">
+                <div class="message">
+                    <label for="message">&gt</label>
+                    <input type="text" id="input" required autofocus autocomplete="off">
+                </div>
+                <button class="send">Send</button>
+            </section>
+        </main>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./chat.js"></script>
+</body>
+
+</html>

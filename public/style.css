@@ -1,0 +1,160 @@
+body {
+  background: rgb(8, 36, 97);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.wrapper {
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  flex: 1;
+  max-width: 900px;
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #ded9d9;
+  color: blue;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.04);
+  border-bottom: 1px solid rgb(232 232 232 / 94%);
+  border-top: 1px solid rgb(146 146 146 / 94%);
+}
+
+main {
+  padding: 15px;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+input {
+  background: whitesmoke;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  color: #301bec;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+input,
+label {
+  display: block;
+  padding: 10px 5px;
+}
+
+#input {
+  width: 95%;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  font-size: 10px;
+  color: whitesmoke;
+  background: #2566dd;
+  padding: 2px 6px;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+  align-self: center;
+}
+
+.user button {
+  height: 40px;
+  width: 90px;
+  border-radius: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.name {
+  text-transform: capitalize;
+}
+
+button:hover {
+  color: #1d3d2d;
+}
+
+button:focus {
+  outline: none;
+  background: #4669ac;
+}
+
+.send {
+  padding: 6px;
+  width: 20%;
+}
+
+.message {
+  display: flex;
+  width: 75%;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.form button {
+  height: 40px;
+  border-radius: 8px;
+  background-color: green;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.feedback {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.green {
+  color: greenyellow;
+}
+
+.orange {
+  color: orange;
+}
+
+.grey {
+  color: gray;
+}
+
+.violet {
+  color: violet;
+}
+
+.yellow {
+  color: rgb(255, 187, 0);
+}
+
+.blue {
+  color: rgb(108, 108, 255);
+}
+
+.red {
+  color: tomato;
+}
